@@ -24,7 +24,7 @@ amazonbooks-pipeline/
 ├── docker-compose.yaml
 ├── requirements.txt
 └── README.md
-
+```
 🚀 Getting Started
 1. Prerequisites
 Ensure you have the following installed:
