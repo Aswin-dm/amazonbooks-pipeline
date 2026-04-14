@@ -15,16 +15,16 @@ Libraries: BeautifulSoup4 (Scraping), Pandas (Transformation), Requests
 
 Containerization: Docker & Docker Compose
 
-📂 Project Structure
-Plaintext
+```
 amazonbooks-pipeline/
 ├── dags/
-│   └── amazon_books_dag.py     # Airflow DAG definition
+│   └── amazon_books_dag.py
 ├── scripts/
-│   └── extract_books.py        # Web scraping & transformation logic
-├── docker-compose.yaml         # Docker setup for Airflow & Postgres
-├── requirements.txt            # Python dependencies
-└── README.md                   # Project documentation
+│   └── extract_books.py
+├── docker-compose.yaml
+├── requirements.txt
+└── README.md
+
 🚀 Getting Started
 1. Prerequisites
 Ensure you have the following installed:
