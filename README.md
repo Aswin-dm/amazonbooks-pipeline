@@ -1,6 +1,6 @@
 Amazon Books ETL Pipeline
 This project is an end-to-end Data Engineering pipeline designed to extract book data from Amazon, transform it for analysis, and load it into a structured database. It leverages Apache Airflow for orchestration and PostgreSQL as the data warehouse.
-
+ 
 📌 Project Overview
 The pipeline automates the process of gathering information about books (e.g., Data Engineering, Self-Improvement, or Best Sellers) from Amazon. This data is cleaned and stored systematically to enable further analysis, such as price tracking or popularity trends. 
 
