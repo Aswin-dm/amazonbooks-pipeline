@@ -102,7 +102,7 @@ services:
       start_period: 5s
     restart: always
     ports:
-      - "5342:5432"
+      - "your port id"
 
 
 
@@ -131,7 +131,7 @@ services:
     # https://redis.io/blog/redis-adopts-dual-source-available-licensing/
     image: redis:7.2-bookworm
     expose:
-      - 6379
+      - 
     healthcheck:
       test: ["CMD", "redis-cli", "ping"]
       interval: 10s
@@ -144,7 +144,7 @@ services:
     <<: *airflow-common
     command: webserver
     ports:
-      - "8080:8080"
+      - ""
     healthcheck:
       test: ["CMD", "curl", "--fail", "http://localhost:8080/api/v2/version"]
       interval: 30s
@@ -343,7 +343,7 @@ services:
     profiles:
       - flower
     ports:
-      - "5555:5555"
+      - "   "
     healthcheck:
       test: ["CMD", "curl", "--fail", "http://localhost:5555/"]
       interval: 30s
